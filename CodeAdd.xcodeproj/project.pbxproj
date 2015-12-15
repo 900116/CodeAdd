@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECACE1E71C1FB72100D84079 /* NSString+GHBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ECACE1E61C1FB72100D84079 /* NSString+GHBase.m */; };
+		ECB6EE371C1E565200520DBF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB6EE361C1E565200520DBF /* AppKit.framework */; };
+		ECB6EE391C1E565200520DBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB6EE381C1E565200520DBF /* Foundation.framework */; };
+		ECB6EE3D1C1E565200520DBF /* CodeAdd.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = ECB6EE3C1C1E565200520DBF /* CodeAdd.xcscheme */; };
+		ECB6EE401C1E565200520DBF /* CodeAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6EE3F1C1E565200520DBF /* CodeAdd.m */; };
+		ECB6EE431C1E565200520DBF /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6EE421C1E565200520DBF /* NSObject_Extension.m */; };
+		ECB6EE4B1C1EA07300520DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB6EE4A1C1EA07300520DBF /* Cocoa.framework */; };
+		ECB6EE571C1EA0E900520DBF /* GHIDEEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6EE561C1EA0E900520DBF /* GHIDEEditor.m */; };
+		ECB6EE9E1C1FAC1400520DBF /* GHClassParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6EE9D1C1FAC1400520DBF /* GHClassParser.m */; };
+		ECB6EEA11C1FACCC00520DBF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6EEA01C1FACCC00520DBF /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECACE1E51C1FB72100D84079 /* NSString+GHBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHBase.h"; sourceTree = "<group>"; };
+		ECACE1E61C1FB72100D84079 /* NSString+GHBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHBase.m"; sourceTree = "<group>"; };
+		ECB6EE331C1E565200520DBF /* CodeAdd.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAdd.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB6EE361C1E565200520DBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		ECB6EE381C1E565200520DBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		ECB6EE3C1C1E565200520DBF /* CodeAdd.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = CodeAdd.xcscheme; path = CodeAdd.xcodeproj/xcshareddata/xcschemes/CodeAdd.xcscheme; sourceTree = SOURCE_ROOT; };
+		ECB6EE3E1C1E565200520DBF /* CodeAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeAdd.h; sourceTree = "<group>"; };
+		ECB6EE3F1C1E565200520DBF /* CodeAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeAdd.m; sourceTree = "<group>"; };
+		ECB6EE411C1E565200520DBF /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		ECB6EE421C1E565200520DBF /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		ECB6EE441C1E565200520DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB6EE4A1C1EA07300520DBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ECB6EE541C1EA0B100520DBF /* IDEFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
+		ECB6EE551C1EA0E900520DBF /* GHIDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHIDEEditor.h; sourceTree = "<group>"; };
+		ECB6EE561C1EA0E900520DBF /* GHIDEEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHIDEEditor.m; sourceTree = "<group>"; };
+		ECB6EE9C1C1FAC1400520DBF /* GHClassParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHClassParser.h; sourceTree = "<group>"; };
+		ECB6EE9D1C1FAC1400520DBF /* GHClassParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHClassParser.m; sourceTree = "<group>"; };
+		ECB6EE9F1C1FACCC00520DBF /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		ECB6EEA01C1FACCC00520DBF /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB6EE311C1E565200520DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB6EE4B1C1EA07300520DBF /* Cocoa.framework in Frameworks */,
+				ECB6EE371C1E565200520DBF /* AppKit.framework in Frameworks */,
+				ECB6EE391C1E565200520DBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB6EE2A1C1E565200520DBF = {
+			isa = PBXGroup;
+			children = (
+				ECB6EE3A1C1E565200520DBF /* CodeAdd */,
+				ECB6EE351C1E565200520DBF /* Frameworks */,
+				ECB6EE341C1E565200520DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB6EE341C1E565200520DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6EE331C1E565200520DBF /* CodeAdd.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB6EE351C1E565200520DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6EE4A1C1EA07300520DBF /* Cocoa.framework */,
+				ECB6EE361C1E565200520DBF /* AppKit.framework */,
+				ECB6EE381C1E565200520DBF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB6EE3A1C1E565200520DBF /* CodeAdd */ = {
+			isa = PBXGroup;
+			children = (
+				ECACE1E51C1FB72100D84079 /* NSString+GHBase.h */,
+				ECACE1E61C1FB72100D84079 /* NSString+GHBase.m */,
+				ECB6EE9F1C1FACCC00520DBF /* RegexKitLite.h */,
+				ECB6EEA01C1FACCC00520DBF /* RegexKitLite.m */,
+				ECB6EE9C1C1FAC1400520DBF /* GHClassParser.h */,
+				ECB6EE9D1C1FAC1400520DBF /* GHClassParser.m */,
+				ECB6EE551C1EA0E900520DBF /* GHIDEEditor.h */,
+				ECB6EE561C1EA0E900520DBF /* GHIDEEditor.m */,
+				ECB6EE541C1EA0B100520DBF /* IDEFoundation.h */,
+				ECB6EE3E1C1E565200520DBF /* CodeAdd.h */,
+				ECB6EE3F1C1E565200520DBF /* CodeAdd.m */,
+				ECB6EE411C1E565200520DBF /* NSObject_Extension.h */,
+				ECB6EE421C1E565200520DBF /* NSObject_Extension.m */,
+				ECB6EE441C1E565200520DBF /* Info.plist */,
+				ECB6EE3B1C1E565200520DBF /* Supporting Files */,
+			);
+			path = CodeAdd;
+			sourceTree = "<group>";
+		};
+		ECB6EE3B1C1E565200520DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6EE3C1C1E565200520DBF /* CodeAdd.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB6EE321C1E565200520DBF /* CodeAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB6EE471C1E565200520DBF /* Build configuration list for PBXNativeTarget "CodeAdd" */;
+			buildPhases = (
+				ECB6EE2F1C1E565200520DBF /* Sources */,
+				ECB6EE301C1E565200520DBF /* Resources */,
+				ECB6EE311C1E565200520DBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeAdd;
+			productName = CodeAdd;
+			productReference = ECB6EE331C1E565200520DBF /* CodeAdd.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB6EE2B1C1E565200520DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ApesStudio;
+				TargetAttributes = {
+					ECB6EE321C1E565200520DBF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = ECB6EE2E1C1E565200520DBF /* Build configuration list for PBXProject "CodeAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECB6EE2A1C1E565200520DBF;
+			productRefGroup = ECB6EE341C1E565200520DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB6EE321C1E565200520DBF /* CodeAdd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB6EE301C1E565200520DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB6EE3D1C1E565200520DBF /* CodeAdd.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB6EE2F1C1E565200520DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB6EE9E1C1FAC1400520DBF /* GHClassParser.m in Sources */,
+				ECB6EE401C1E565200520DBF /* CodeAdd.m in Sources */,
+				ECB6EE571C1EA0E900520DBF /* GHIDEEditor.m in Sources */,
+				ECB6EEA11C1FACCC00520DBF /* RegexKitLite.m in Sources */,
+				ECB6EE431C1E565200520DBF /* NSObject_Extension.m in Sources */,
+				ECACE1E71C1FB72100D84079 /* NSString+GHBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECB6EE451C1E565200520DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		ECB6EE461C1E565200520DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		ECB6EE481C1E565200520DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CodeAdd/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.CodeAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		ECB6EE491C1E565200520DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CodeAdd/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.CodeAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB6EE2E1C1E565200520DBF /* Build configuration list for PBXProject "CodeAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB6EE451C1E565200520DBF /* Debug */,
+				ECB6EE461C1E565200520DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB6EE471C1E565200520DBF /* Build configuration list for PBXNativeTarget "CodeAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB6EE481C1E565200520DBF /* Debug */,
+				ECB6EE491C1E565200520DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB6EE2B1C1E565200520DBF /* Project object */;
+}
